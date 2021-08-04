@@ -1,0 +1,40 @@
+UI / UX
+Front End "Static"
+HTML
+CSS
+Js / Jquery
+Responsive "Bootstrap"
+
+Back End "Dynamic"
+PHP
+MySQL
+
+---------------------
+HTML
+Hyper Text Markup Language
+
+* Text Editor
+1. Brackets 
+2. VS Code *
+3. Sublime
+4. Atom
+5. Komodo Edit
+6. Notepad++
+
+* How to write HTML Tag?
+- Open And Close Tag
+1. <TagName> Content </TagName>
+
+- Self Close Tag
+2. <TagName />
+
+* What is the most used tag in html?
+- Heading
+
+
+
+
+
+
+
+
