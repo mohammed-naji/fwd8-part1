@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap'); - get the font from google website */
+
+@font-face {
+    font-family: 'PaletteMosaic';
+    src: url(../fonts/PaletteMosaic-Regular.ttf);
+}
+
+body {
+    font-family: 'PaletteMosaic';
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+#div1 {
+    background: black;
+    /*margin: 20px;*/ /* for all direction */
+    /*margin: 20px 40px;*/ /* top,bottom left,rightg*/
+    /*margin: 20px 40px 100px;*/ /* top left,right bottom*/
+    /*margin: 10px 20px 30px 40px;*/ /* top right bottom left*/
+    /* margin-bottom: 50px; */
+
+    /* margin-bottom: 40px; */
+    /* margin: 0 0 40px 0; */
+    /* margin: 0 0 40px; */
+    /* border: 2px solid yellow; */
+    border-top: 5px pink solid;
+    border-radius: 5px;
+    padding-left: 15px;
+    /* border: 5px pink dashed;
+    border: 5px pink dotted; */
+}
+#div2 {
+    /* margin-top: 40px; */
+    /* margin: 40px 0 0 0; */
+    margin: 40px 0 0;
+    background: red;
+}
+#div3 {
+    /* background: blue; */
+    /* background: rgb(51, 131, 252); */
+    /* background: rgba(255, 255, 0, 1); */
+    background: #fff;
+}
+
+/* - Box Model
+1. Margin
+2. Border
+3. Padding
+4. Content
+ */
+
+/* 
+Color Type 
+1. Name => red, green, gray
+2. RGB => rgb(0 .. 255, 0 .. 255, 0 .. 255 )
+3. RGBA => rgba(0 .. 255 ,0..255 ,0..255 ,0..1 )
+4. Hex # 0..9A..F     */
