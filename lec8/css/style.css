@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    margin: 0;
+    font-family: 'Lato';
+}
+
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+/* .logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+
+.clearfix {
+    clear: both;
+} */
+
+.clearfix {
+    clear: both;
+}
+
+/*
+- Display
+none
+inline
+block
+inline-block
+flex
+*/
+
+.item {
+    width: 33.33333%;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    /* display: none; */
+    /* display: inline; */
+    /* display: inline-block; */
+    float: left;
+}
+
+/* .color {
+    color: #d82abe;
+} */
+
+span {
+    display: block;
+}
+
+.big {
+    width: 500px;
+    height: 400px;
+    background: #57acc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    background: #587245;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px; */
+}
+
+.container {
+    width: 395px;
+    margin: 0 auto;
+}
