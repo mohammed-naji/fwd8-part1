@@ -58,7 +58,7 @@ img {
     padding-top: 0;
 }
 
-a {
+.product a {
     background: #fb4400;
     color: #fff;
     display: block;

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box a {
+    color: #f00
+}
+
+.box .box2 a { 
+    color: #000;
+}
+
+span, i {
+    font-size: 2em;
+    color: #e7f;
+    display: block;
+}
+
+p.text {
+    color: #e96874;
+}
+
+.btn {
+    text-decoration: none;
+    background: #523428;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: arial;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    background: #fb4400;
+}
+
+.shadow {
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    /* background: #333;
+    color: #fff; */
+    /* border: 2px solid #333; */
+    /* box-shadow: 0 0 20px rgb(155, 155, 155); */
+    /* box-shadow: 0 0 20px rgb(127 170 203 / 20%); */
+    box-shadow: 0 0 20px rgba(127, 170, 203, 1);
+}
+
+.shadow p {
+    margin: 0;
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    background: #857421;
+    padding: 20px;
+}
+
+h2 {
+    animation: color 2s linear infinite;
+}
+
+@keyframes color {
+    /* from {
+
+    }
+    to {
+        
+    } */
+    0% {
+        color: #f00;
+    }
+    25% {
+        color: #f0f;
+    }
+    50% {
+        color: #00f;
+    }
+    75% {
+        color: #0ff;
+    }
+    100% {
+        color: #f00;
+    }
+}
+
