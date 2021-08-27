@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 5000px;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.modal-content {
+    width: 40%;
+    margin: 10% auto 0;
+    background: #e5e5e5;
+    padding: 30px;
+    position: relative;
+}
+
+.modal-content button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f00;
+    color: #fff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.images img {
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.images-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(151, 179, 255, 0.5);
+    display: none;
+}
+
+.images-modal img {
+    width: 40%;
+    display: block;
+    margin: 3% auto 0;
+}
+
+.images-modal .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
