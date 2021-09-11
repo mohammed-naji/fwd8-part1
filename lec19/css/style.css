@@ -1,0 +1,19 @@
+.btn-danger {
+    background: #00f;
+}
+
+.btn-danger:hover {
+    background: rgb(255, 0, 179);
+}
+
+.btn-custom {
+    background: #f0f;
+}
+
+.btn-custom:hover {
+    background: rgb(204, 191, 2);
+}
+
+.py-5 {
+    padding: 80px 0 !important;
+}
